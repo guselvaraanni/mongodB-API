@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 
 client = MongoClient('')
-db = client['motor']
-collection = db['motor']
+
 
 @app.route('/')
 def index():
