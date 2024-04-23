@@ -3,7 +3,7 @@ from bson.objectid import ObjectId
 from pymongo import MongoClient
 app = Flask(__name__)
 
-client = MongoClient('mongodb+srv://guselvaraanni24:Selvaraanni%4024@cluster0.e1quzum.mongodb.net/')
+client = MongoClient('')
 db = client['project']
 collection = db['project']
 
